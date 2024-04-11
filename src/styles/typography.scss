@@ -1,0 +1,26 @@
+.title {
+    font-weight: $font-weight;
+    line-height: 1.4;
+
+}
+
+.title.sm {
+    font-size: 1.375rem;
+}
+
+.title.md {
+    font-size: 2.5rem;
+}
+
+.title.lg { 
+    font-size: 3rem;
+}
+
+.highlight{
+    color: $primary-color;
+}
+
+p{
+    font-weight: $font-light;
+    font-size: 1rem;
+}

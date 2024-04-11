@@ -1,0 +1,46 @@
+@use '../../../styles/global.scss';
+
+.list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px 0;
+    gap: 1.875rem;
+    
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border: 1px solid global.$white ;
+    border-radius: 25px;
+    gap: 1.875rem;
+    height: 100%;
+    width: 100%;
+    
+    div {
+        display: flex;
+        flex-direction: column;
+        gap: 0.9375rem;
+        
+        button {
+            align-self: flex-start;
+        }
+        
+    }
+    img {
+        align-self: flex-start;
+    }
+}
+
+
+
+@media (max-width: 760px) {
+
+    .list {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,39 @@
+@use '../../styles/global';
+
+.header {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  z-index: 999;
+  background-color: global.$black;
+  transition: top 0.5s;
+
+}
+
+.visible {
+  top: 0;
+}
+
+.hidden {
+  top: -200px;
+}
+
+.menu{
+  display: flex;
+  gap: 2.5rem;
+  
+  a {
+    color: global.$white;
+  }
+}
+
+
+@media (max-width: 760px) {
+
+    .header{
+      flex-direction: column;
+      gap: 15px;
+    }
+}

@@ -1,0 +1,18 @@
+$primary-color: #6880FF;
+$primary-color-hover: #7C91FF;
+$black: #00000a;
+$white: #fff;
+$font-stack: 'inter', sans-serif;
+$font-weight: 800;
+$font-light: 400;
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: $font-stack;
+    background-color: $black;
+    color: $white ;
+}

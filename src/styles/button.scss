@@ -1,0 +1,13 @@
+button {
+    background-color: $primary-color;
+    border-radius: 0.75rem;
+    padding: 0.625rem 0.9375rem;
+    border: none;
+    color: $white;
+    font-family: $font-stack;
+    line-height: 1.4;
+}
+
+button:hover {
+    background-color: $primary-color-hover;
+}

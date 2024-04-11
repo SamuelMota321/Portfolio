@@ -1,0 +1,37 @@
+@use '../../styles/global';
+
+.banner {
+    display: flex;
+
+    div{
+        display: flex;
+        flex-direction: column;
+        gap: 0.9375rem;
+
+        button {
+            align-self: flex-start;
+            margin: 20px 0;
+        }
+
+       
+    }
+
+    img {
+        max-width: 100%;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+
+    .banner{
+      flex-direction: column;
+      gap: 15px;
+      
+      img{
+        max-width: 80%;
+        margin: auto;
+      }
+    }
+}
