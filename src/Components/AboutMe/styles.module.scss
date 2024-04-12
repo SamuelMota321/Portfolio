@@ -1,14 +1,19 @@
-.aboutMe {
-    display: flex;
-    align-items: baseline;
 
-    h2 {
-        width: 60%;
-    }
-    
+.aboutMe {
+    align-items: center;
+    padding: 1.25rem 0.9375rem;
+   
     p {
         width: 100%;
+        padding: 15px 1.875rem;
+        text-align: justify;
+        
+        span {
+            margin-left: 30px;
+        }
     }
+
+
 }
 
 

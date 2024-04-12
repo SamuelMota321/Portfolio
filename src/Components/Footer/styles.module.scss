@@ -8,12 +8,27 @@
     border-top: 1px solid global.$white;
     border-bottom: 1px solid global.$white;
     padding: 1.875rem 1.25rem ;
-    margin-bottom: 1.25rem;
     gap: 3.125rem;
 
     ul{
         display: flex;
+        align-items: center;
+        justify-content: center;
         gap: 0.9375rem;
         padding: 1.25rem;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+        gap: 0;
+        justify-content: center;
+        align-items: center;
+
     }
 }
