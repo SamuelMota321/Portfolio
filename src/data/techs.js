@@ -41,11 +41,6 @@ export const techs = [
         name: 'SCSS',
     },
     {
-        id: 8,
-        icon: Insomnia,
-        name: 'Insomnia',
-    },
-    {
         id: 9,
         icon: Figma,
         name: 'Figma',
