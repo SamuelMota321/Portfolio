@@ -4,8 +4,7 @@ import JS from '../assets/icon/js-icon.png'
 import React from '../assets/icon/react-icon.png'
 import Vite from '../assets/icon/vite-icon.png'
 import SCSS from '../assets/icon/sass-icon.png'
-import Insomnia from '../assets/icon/insomnia-icon.png'
-import Figma from '../assets/icon/figma-icon.png'
+import Swiper from '../assets/icon/swiper-icon.png'
 import Git from '../assets/icon/git-icon.png'
 import Github from '../assets/icon/github-icon.png'
 
@@ -42,8 +41,8 @@ export const techs = [
     },
     {
         id: 9,
-        icon: Figma,
-        name: 'Figma',
+        icon: Swiper,
+        name: 'Swiper',
     },
     {
         id: 10,
