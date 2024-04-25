@@ -34,7 +34,7 @@ export const Header = () => {
                     <li><a href="#projetos">Projetos</a></li>
                 </ul>
             </nav>
-            <button onClick={() => { window.open('https://w.app/ZkLnuA', '_blank'); }}>Contato</button>
+            <button onClick={() => { window.open('https://contate.me/samuelmota', '_blank'); }}>Contato</button>
         </header>
     );
 };
