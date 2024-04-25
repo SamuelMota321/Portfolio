@@ -26,7 +26,7 @@ export const Header = () => {
 
     return (
         <header className={`${styles.header} ${isVisible ? styles.visible : styles.hidden} container`}>
-            <h1 className="title sm">Portifólio</h1>
+            <h1 className="title sm">Portfólio</h1>
             <nav>
                 <ul className={styles.menu}>
                     <li><a href="#sobre-mim">Sobre</a></li>

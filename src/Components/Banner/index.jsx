@@ -8,7 +8,7 @@ export const Banner = () => {
         <section className={`${styles.banner} container`}>
             <div >
                 <p className='highlight'>SAMUEL RODRIGUES DA MOTA</p>
-                <h1 className='title lg'>Bem Vindo ao meu Portifólio</h1>
+                <h1 className='title lg'>Bem Vindo ao meu Portfólio</h1>
                 <p>Desenvolvedor Front-End em ascensão pronto para transformar minha paixão por design e codificação em experiências de usuário excepcionais</p>
                 <button onClick={() => { window.open('https://w.app/ZkLnuA', '_blank'); }}>Saiba mais</button>
             </div>
