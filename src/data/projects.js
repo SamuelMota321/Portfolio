@@ -27,5 +27,12 @@ export const projects = [
         repository: 'https://github.com/SamuelMota321/Pizarria-Brasileira', 
         description: 'Uma página de vendas para uma pizzaria inspirada no brasil',
     },
-
+    {
+        id: 5,
+        name: 'Hamburgueria Kenzie',
+        page: 'https://hamburgueria-kenzie-teal-sigma.vercel.app',
+        repository: 'https://github.com/SamuelMota321/Hamburgueria-Kenzie', 
+        description: 'Montegem de uma lista de produtos para seleção de pedidos de uma hamburgueria.',
+    },
+    
 ]
